@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Table Layout</title>
+    </head>
+    <body>
+        <h2>Hello World</h2>
+        <table border="1" height="200" width="380">
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <hr/>
+        <h2>Table Two</h2>
+        <table border="1" height="200" width="380">
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <tr/>
+        <h2>Table Three</h2>
+        <table border="1" height="200" width="380">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td> L
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <hr/>
+        <h2>Table Four</h2>
+        <table border="1" height="200" width="380">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <hr/>
+        <h2>Table Five</h2>
+        <table border="1" height="200" width="380">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"></td>
+            </tr>
+        </table>
+        <hr/>
+        <h2>Table six</h2>
+        <table border="1" height="960" width="680">
+            <tr>
+                <td width="25%"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+            </tr>
+            <tr height="55%">
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+        <hr/>
+        <h2>Table seven</h2>
+        <table border="1" height="960" width="980" >
+            <tr>
+                <td></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr height="50%">
+                <td></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+        </table>
+    </body>
+</html>
