@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .div-one{
+            height: 600px;
+            width: 900px;
+            background: green;
+            position: relative;
+            margin-top: 20px;
+            transition: 1s;
+        }
+        .div-one:hover{
+            border-radius: 50%  ;
+        }
+        .div-two{
+            height: 350px;
+            width: 350px;
+            background: red;
+            position: absolute;
+            right: 264px;
+            top: 123px;
+            border-radius: 50%;
+            transition: 1s;
+        }
+        .div-two:hover{
+            border-radius: 0;
+        }
+        .div-three{
+            height: 300px;
+            width: 300px;
+            background: yellow;
+            border: 1px solid red;
+            /*border-radius: 0px;*/
+            transition: 1s;
+            margin: 150px;
+            /*transform: scale(1);*/
+            /*transform: scaleX(1)*/
+            /*transform: scaleY(1);*/
+            /*transform: scaleY3d(1,1,1);*/
+            transform: rotate(0deg);
+        }
+        .div-three:hover{
+            /*border-radius: 50%  ;*/
+            /*transform: scale(1.5);*/
+            /*transform: scaleX(1.5);*/
+            /*transform: scaleY(1.5);*/
+            /*transform: scaleY3d(1.5,2.5,4.5);*/
+            /*transform: rotate(360deg);*/
+            /*transform: rotateX(180deg);*/
+            /*transform: rotateY(180deg);*/
+            transform: skew(45deg);
+            transform: skew(-45deg);
+        }
+        .div-box{
+             margin-left: 150px;
+             position: relative;
+         }
+
+        .one{
+            height: 300px;
+            width: 50px;
+            background: red;
+            transform: skew(-30deg);
+            float: left;
+        }
+        .two{
+            height: 300px;
+            width: 50px;
+            background: red;
+            transform: skew(30deg);
+            float: left;
+            margin-left: 150px;
+        }
+        .three{
+            height: 30px;
+            width: 250px;
+            background: red;
+            margin-top: 165px;
+            float: left;
+            transform: skew(30deg);
+            position: absolute;
+            top: 0px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="div-box">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+
+
+<!--    <div class="div-three">-->
+
+<!--    </div>-->
+<!--    <div class="div-one">-->
+<!--        <div class="div-two"></div>-->
+<!--    </div>-->
+
+
+</body>
+</html>
+
+
+
+
+<!--position 5 types- -->
+<!--1. static-->
+<!--2. Relative-->
+<!--3. Asolute-->
+<!--4.Fixed-->
+<!--5.stickey--current position+fixed >
