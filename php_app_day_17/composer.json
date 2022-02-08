@@ -1,0 +1,16 @@
+{
+  "name": "php_app_day_17/php_app_day_17",
+  "type": "project",
+  "description": "a simple project",
+  "license": "",
+  "keywords": [],
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
